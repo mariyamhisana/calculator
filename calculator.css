@@ -1,0 +1,51 @@
+
+
+
+.pos{
+    
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    width:27%;
+    height: 450px;
+    background-color:white;
+}
+
+#a1{
+    width: 70px;
+    height: 70px;
+    color: orange;
+    background-color: white
+}
+.b1{
+    margin-right: 140px;
+   
+}
+#a2{
+    width: 70px;
+    height: 70px; 
+    color: orange;
+    background-color: white;
+}
+.b2{
+    margin-right: 140px;
+    
+}
+#result{
+    width: 350px;
+    height: 45px;
+    min-height: 45px;
+}
+.p1{
+    width: 70px;
+    height: 70px;
+    color: orange;
+    background-color:white;
+}
+.p3{
+    margin-left: 230px;
+    margin-top: -350px;
+}

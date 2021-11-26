@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./calculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="pos">
+
+        <input type="text" id="result"><br><br>
+
+        <div class="b2">
+            <button id="a2"  onclick="clear_box()">C</button>
+            <button id="a2"  onclick="displayvalue('%')">%</button>
+            <button id="a2"  onclick="remove_element()">x</button>
+
+        </div>
+        <div class="b1">
+            <div>
+                <button id="a1" onclick="displayvalue('7')">7 </button>
+                <button id="a1" onclick="displayvalue('8')">8</button>
+                <button id="a1" onclick="displayvalue('9')">9</button>
+
+
+
+            </div>
+            <div>
+                <button id="a1" onclick="displayvalue('4')" >4</button>
+                <button id="a1" onclick="displayvalue('5')">5</button>
+                <button id="a1"onclick="displayvalue('6')">6</button>
+
+
+            </div>
+            <div>
+                <button id="a1"onclick="displayvalue('1')" >1</button>
+                <button id="a1"onclick="displayvalue('2')">2</button>
+                <button id="a1"onclick="displayvalue('3')">3</button>
+
+            </div>
+            <button id="a1"onclick="displayvalue('00')">00</button>
+            <button id="a1"onclick="displayvalue('0')">0</button>
+            <button id="a1"onclick="displayvalue('.')">.</button>
+           <div class="p3">
+            <button class="p1"onclick="displayvalue('/')">/</button><br>
+            <button class="p1"onclick="displayvalue('*')">*</button><br>
+            <button class="p1"onclick="displayvalue('-')">-</button><br>
+            <button class="p1"onclick="displayvalue('+')">+</button><br>
+            <button class="p1" onclick="evaluate_exp()">=</button><br>
+        </div>
+        
+
+
+
+        </div>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
